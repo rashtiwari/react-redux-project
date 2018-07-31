@@ -1,0 +1,105 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  float: left;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+  padding: 5px;
+}
+
+.App-header {
+  background-color: #b4b95d;
+  height: 85px;
+  padding: 20px;
+  color: white;
+}
+
+.navbar {
+  border-radius: 0;
+}
+
+.btn-sign-up {
+  margin-right: 10px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.login-form {
+  margin: 20px auto;
+  padding: 30px 19px;
+  position: absolute;
+  left: 30%;
+  text-align: left;
+  border: 1px solid white;
+  background-color: white;
+}
+
+.form-div {
+  margin-top: 15px;
+}
+
+.form-div-btn {
+  margin-top: 15px;
+  text-align: center;
+}
+
+.sign-in {
+  padding: 12px 24px;
+}
+
+img.avatar {
+  width: 25%;
+  border-radius: 50%;
+}
+
+.form-div-img {
+  text-align: center;
+  margin: 24px 0 12px 0;
+}
+
+.form-div-heading {
+  text-align: center;
+}
+
+.form-div-heading h1 {
+  color: blue;
+}
+
+.font-color-address {
+  color: #1d88ca;
+}
+
+.addr-div {
+  margin-top: 19px;
+}
+
+.form-div-heading strong{
+  color: #a50924;
+  font-style: oblique;
+}
+
+.icon-contact {
+  font-size: 36px;
+}
+
+.contact-form {
+  margin: 20px 10px;
+  padding: 30px 19px;
+  background-color: #ffff;
+  text-align: left;
+}
+
+.contact-user-form {
+  margin: 20px 10px;
+  padding: 30px 19px;
+  background-color: #ffff;
+  text-align: left;
+}
