@@ -8,27 +8,19 @@ export const history = createHistory();
 const initialState = {};
 const enhancers = [];
 const middleware = [
-    thunk,
-    routerMiddleware(history)
+	thunk,
+	routerMiddleware(history)
 ];
 
-// if(process.env.NODE_ENV === 'development') {
-//     const devToolsExtension = window.__REDUX_DEVTOOLS_EXTENSION__
-
-//     if (typeof devToolsExtension === 'function') {
-//         enhancers.push(devToolsExtension())
-//       }
-// }
-
 const composedEnhancers = compose(
-    applyMiddleware(...middleware),
-    ...enhancers
-  )
+	applyMiddleware(...middleware),
+	...enhancers
+);
   
-  const store = createStore(
-    connectRouter(history)(rootReducer),
-    initialState,
-    composedEnhancers
-  )
+const store = createStore(
+	connectRouter(history)(rootReducer),
+	initialState,
+	composedEnhancers
+);
   
-  export default store
+export default store;

@@ -14,6 +14,7 @@ render(
 				<App />
 			</div>
 		</ConnectedRouter>
-	</Provider>,
+	</Provider>
+	,
 	target
 );
